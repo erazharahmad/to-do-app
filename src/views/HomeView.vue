@@ -83,9 +83,9 @@ export default {
     //main todo content
 
     let todos = ref([
-      {content: "This is a Todo", inProgress: true, id: 1},
-      {content: "This is another Todo", inProgress: true, id: 2},
-      {content: "This is yet another Todo", inProgress: false, id: 3},
+      {content: "This is a Todo 1", inProgress: true, id: 1},
+      {content: "This is a Todo 2", inProgress: true, id: 2},
+      {content: "This is a Todo 3", inProgress: false, id: 3},
     ])
 
     const Completed = computed(() => {
